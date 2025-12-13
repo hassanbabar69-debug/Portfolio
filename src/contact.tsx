@@ -111,7 +111,11 @@ const ContactSection = () => {
             </div>
 
             <a 
+<<<<<<< HEAD
               href="/resume.pdf.pdf"
+=======
+              href="/sanan.pdf.pdf"
+>>>>>>> e5a839a9ac3045dbd2497aee41d37846c7dc7720
               download="Sannan_Siddiqui_Resume.pdf"
               className="group w-full md:w-auto bg-white/5 hover:bg-[#A2DC36] border border-white/10 hover:border-[#A2DC36] transition-all duration-300 rounded-2xl p-6 flex items-center justify-between gap-6 cursor-pointer"
             >
