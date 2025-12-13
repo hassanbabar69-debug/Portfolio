@@ -1,30 +1,22 @@
-import { motion , type Variants } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 import { Linkedin, Instagram, Phone, MapPin, ArrowUpRight, Download, FileText } from 'lucide-react';
-
-
-
-
-
 
 const ContactSection = () => {
   
-  const containerVariants : Variants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
   };
   
-  const itemVariants : Variants = {
+  const itemVariants: Variants = {
     hidden: { y: 30, opacity: 0 },
     visible: { y: 0, opacity: 1, transition: { type: "spring", stiffness: 100 } },
   };
 
   return (
-   
     <section className="contactme relative overflow-hidden min-h-screen bg-black flex items-center justify-center p-6 font-sans text-white">
       
-
       <div className="absolute inset-0 pointer-events-none">
-       
       </div>
 
       <motion.div
@@ -45,7 +37,6 @@ const ContactSection = () => {
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-         
           
           <motion.a 
             href="https://www.linkedin.com/in/sannan-ahmad-504b62339" 
@@ -111,11 +102,7 @@ const ContactSection = () => {
             </div>
 
             <a 
-<<<<<<< HEAD
-              href="/resume.pdf.pdf"
-=======
-              href="/sanan.pdf.pdf"
->>>>>>> e5a839a9ac3045dbd2497aee41d37846c7dc7720
+              href="/resume.pdf.pdf" 
               download="Sannan_Siddiqui_Resume.pdf"
               className="group w-full md:w-auto bg-white/5 hover:bg-[#A2DC36] border border-white/10 hover:border-[#A2DC36] transition-all duration-300 rounded-2xl p-6 flex items-center justify-between gap-6 cursor-pointer"
             >
